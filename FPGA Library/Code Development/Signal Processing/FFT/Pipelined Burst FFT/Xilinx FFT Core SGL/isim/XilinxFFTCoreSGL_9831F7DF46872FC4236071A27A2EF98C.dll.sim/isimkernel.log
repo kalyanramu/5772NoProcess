@@ -1,0 +1,20 @@
+Command line:
+   XilinxFFTCoreSGL_9831F7DF46872FC4236071A27A2EF98C.dll
+     -log  xsiSetupLog
+     -sysgen
+
+Tue Sep 25 19:41:31 2012
+
+
+ Elaboration Time: 2.21522 sec
+
+ Current Memory Usage: 1030.33 Meg
+
+ Total Signals          : 129392
+ Total Nets             : 256356
+ Total Signal Drivers   : 38198
+ Total Blocks           : 15398
+ Total Primitive Blocks : 15247
+ Total Processes        : 32340
+ Total Traceable Variables  : 29228
+ Total Scalar Nets and Variables : 2074276

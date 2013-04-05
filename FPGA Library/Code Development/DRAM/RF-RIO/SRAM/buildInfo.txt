@@ -1,0 +1,23 @@
+[RFRIO Component]
+Component Name=Seawolf SRAM Interface Library
+Component Version=11.1.0a8
+Build Date=4/28/2012 10:30 AM
+
+[LabVIEW Dependencies]
+lvDist_42=penguin://lvfpga/lvdist/4.2/export/11.0/11.0.1f4
+lvfpga=penguin://lvfpga/fpga/main/export/4.3/4.3.0f1
+lveio=penguin://lvfpga/eio/main/export/4.3/4.3.0f1
+fpgaDigitalDesigns=penguin://lvfpga/fpga/digitalDesigns/export/4.3/4.3.0f1
+fxpMathLib=penguin://lvfpga/fxp/mathlib/export/4.3/4.3.0f1
+RioCommonFiles=penguin://microDAQ/Software/RioCommonFiles/export/4.0/4.0.0f1
+
+[RFRIO Dependencies]
+buildInfo=perforce://MI/RF-RIO/Build/Apps/buildInfo/export/11.1/11.1.0a0
+rfrioBuildTools=perforce://MI/RF-RIO/rfrioBuildTools/export/11.1/11.1.0a3
+RfRioLvPlugIn=perforce://MI/RF-RIO/RfRioLvPlugIn/export/11.1/11.1.0a3
+RfRioFifo=perforce://MI/RF-RIO/Fifo/export/11.1/11.1.0a8
+RfRioBoardDriver=//MI/RF-RIO/RfRioBoardDriver/export/1.1/1.1.0a1;
+
+[RFRIO Digital]
+RfRioFixedLogic=perforce://ComputerBasedInstruments/RF/hardware/Seawolf/BBFpga/export/3.0/3.0.0a12041912
+RfRio_DSP=perforce://ComputerBasedInstruments/RF/hardware/Seawolf/Dsp/export/1.0/1.0.0a12032814

@@ -1,0 +1,20 @@
+Command line:
+   XilinxBRAMU16_492B662A4A00137524F1429F559EAF80.dll
+     -log  xsiSetupLog
+     -sysgen
+
+Tue Jan 10 20:30:42 2012
+
+
+ Elaboration Time: 0.0312 sec
+
+ Current Memory Usage: 1378.98 Meg
+
+ Total Signals          : 154
+ Total Nets             : 33165
+ Total Signal Drivers   : 46
+ Total Blocks           : 16
+ Total Primitive Blocks : 5
+ Total Processes        : 39
+ Total Traceable Variables  : 209
+ Total Scalar Nets and Variables : 34510

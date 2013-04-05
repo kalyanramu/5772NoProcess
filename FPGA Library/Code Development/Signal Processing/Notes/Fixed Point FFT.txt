@@ -1,0 +1,41 @@
+fixed point vs floating point
+Fixed point FFTs are fine for many applications.  Whether it is suitable 
+for yours depends on many factors including the size of the FFT. There 
+is a potential growth of N for an N point FFT.  The FFT conserves 
+energy, so if the input has frequency components that all fall in the 
+same FFT bin, the output for that bin will be N times the input 
+amplitude.  If the input is wideband, then the output is spread over all 
+the bins, so the output amplitude is closer to the input amplitude. 
+Often, we know ahead of time the nature of the input signal, so we can 
+do a fixed scaling of the FFT results and wind up with the same number 
+of input bits and output bits.  Other times, we know less about the 
+application and need to handle the full range of possible inputs, or 
+perhaps we are interested in the frequency bins that don't contain the 
+dominant signal.  In those cases we either need to accommodate a wider 
+FFT output (fixed point), or need to resort to floating point.
+
+Make no bones about it, floating point arithmetic is expensive in terms 
+of amount of logic.  There are some shortcuts for FFTs that will 
+increase the dynamic range without going to a full floating point 
+implementation.  The most common is to use block floating point which 
+rescales the entire FFT result by a common power of 2 selected so that 
+the largest signal does not overflow.  Block floating point is typically 
+applied after each FFT stage, and is an effective way to limit the word 
+widths without resorting to floating point arithmetic.
+
+The generally available FFT cores are all fixed point.  Technically 
+speaking, fixed point is more accurate than floating point; the problem 
+with fixed point is that you need a lot of bits to express a large 
+dynamic range.  Floating point is a compromise that dynamically rescales 
+the data as it is processed in order to reduce the number of bits 
+requried to represent a number, at the price of some accuracy.  Fixed 
+point design does require the designer to pay more attention in the 
+system design to ensure the scaling is correct at each stage.  In most 
+cases however it is feasible and is less complexity than an equivalent 
+floating point design.
+
+The windowing does not need floating point, but you do have to get 
+familiar with fractional fixed point notation.  (basically your window 
+funtion is integers from 0 to say 65535 for 16 bit unsigned that 
+represent 0 to 65535/65536 with an implied scaling of 2^-16.  All you 
+need is a multplier and a ROM to implement it.

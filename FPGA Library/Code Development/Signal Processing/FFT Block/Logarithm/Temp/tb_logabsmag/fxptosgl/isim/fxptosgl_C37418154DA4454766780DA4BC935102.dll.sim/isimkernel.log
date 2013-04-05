@@ -1,0 +1,20 @@
+Command line:
+   fxptosgl_C37418154DA4454766780DA4BC935102.dll
+     -log  xsiSetupLog
+     -sysgen
+
+Sun Dec 11 19:59:55 2011
+
+
+ Elaboration Time: 0.031201 sec
+
+ Current Memory Usage: 1019.78 Meg
+
+ Total Signals          : 112
+ Total Nets             : 193
+ Total Signal Drivers   : 33
+ Total Blocks           : 29
+ Total Primitive Blocks : 16
+ Total Processes        : 21
+ Total Traceable Variables  : 347
+ Total Scalar Nets and Variables : 1743

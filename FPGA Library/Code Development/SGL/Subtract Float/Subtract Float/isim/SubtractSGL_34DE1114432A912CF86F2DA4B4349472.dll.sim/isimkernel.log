@@ -1,0 +1,20 @@
+Command line:
+   SubtractSGL_34DE1114432A912CF86F2DA4B4349472.dll
+     -log  xsiSetupLog
+     -sysgen
+
+Wed Jan 11 18:53:59 2012
+
+
+ Elaboration Time: 0.0156 sec
+
+ Current Memory Usage: 2913.41 Meg
+
+ Total Signals          : 112
+ Total Nets             : 193
+ Total Signal Drivers   : 33
+ Total Blocks           : 29
+ Total Primitive Blocks : 16
+ Total Processes        : 21
+ Total Traceable Variables  : 347
+ Total Scalar Nets and Variables : 1743

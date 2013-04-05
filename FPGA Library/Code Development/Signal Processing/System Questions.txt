@@ -1,0 +1,11 @@
+1) What does the typical inpur signal of system look like? This is important for proper scaling of an FFT
+
+2) What is the dynamic range of the input signal?
+
+3) Are there any simulation models of OCT which are available?
+
+4) How is the logFFT signal truncated for a picture?
+
+5) Does lot of people use GPU for rendering? Do they use OpenGL?
+
+6) 

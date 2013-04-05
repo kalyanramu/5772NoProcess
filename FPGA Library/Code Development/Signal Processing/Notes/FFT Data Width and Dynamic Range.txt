@@ -1,0 +1,28 @@
+Unscaled FFT
+------------------
+Input: s22,1
+Output: s 32,11
+Phase Width: 18
+Dynamic Range: 110-114
+
+
+Block Floating Point
+-----------------
+Input: s22,1
+Output: s 22,11
+Phase Width: 18
+Dynamic Range: 110-114
+
+Block Floating Point
+-----------------
+Input: s22,1
+Output: s 22,1
+Phase Width: 17
+Dynamic Range: 112.283
+
+Block Floating Point
+-----------------
+Input: s21,1
+Output: s 21,1
+Phase Width: 17
+Dynamic Range: 110.87

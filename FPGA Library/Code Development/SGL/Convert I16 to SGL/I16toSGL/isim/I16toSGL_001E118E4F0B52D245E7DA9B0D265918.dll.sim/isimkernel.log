@@ -1,0 +1,20 @@
+Command line:
+   I16toSGL_001E118E4F0B52D245E7DA9B0D265918.dll
+     -log  xsiSetupLog
+     -sysgen
+
+Thu Apr 12 15:41:26 2012
+
+
+ Elaboration Time: 0 sec
+
+ Current Memory Usage: 1764.84 Meg
+
+ Total Signals          : 112
+ Total Nets             : 145
+ Total Signal Drivers   : 33
+ Total Blocks           : 29
+ Total Primitive Blocks : 16
+ Total Processes        : 21
+ Total Traceable Variables  : 347
+ Total Scalar Nets and Variables : 1695

@@ -1,0 +1,13 @@
+# Output products list for <bramu16>
+_xmsgs\pn_parser.xmsgs
+blk_mem_gen_ds512.pdf
+blk_mem_gen_readme.txt
+bramu16.asy
+bramu16.gise
+bramu16.ngc
+bramu16.vhd
+bramu16.vho
+bramu16.xco
+bramu16.xise
+bramu16_flist.txt
+bramu16_xmdf.tcl

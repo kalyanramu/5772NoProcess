@@ -1,0 +1,11 @@
+State Machine for each Record
+-----------------------------
+
+States:
+
+1) Wait for Start Trigger 		(End of State: AcqInProgress is High)
+2) Acquire Pre-Trigger Samples		(End of State: Ready for Arm is High)
+3) Wait for Arm Trigger Signal		(End of State: TriggerArmed is High)
+4) Wait for Trigger Signal		(End of State: Triggered is High)
+5) Acquire Post-Trigger Samples		(End of State: PostTrig Complete is High)
+

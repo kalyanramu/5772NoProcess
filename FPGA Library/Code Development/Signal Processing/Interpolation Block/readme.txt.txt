@@ -1,0 +1,1 @@
+ResampleVectorInfo BlockRAM datatype is located at .../Controls/ ResampleVectorInfo

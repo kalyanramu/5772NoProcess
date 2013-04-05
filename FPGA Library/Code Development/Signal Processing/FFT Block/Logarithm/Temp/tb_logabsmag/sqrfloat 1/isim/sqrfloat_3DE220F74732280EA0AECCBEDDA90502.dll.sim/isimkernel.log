@@ -1,0 +1,20 @@
+Command line:
+   sqrfloat_3DE220F74732280EA0AECCBEDDA90502.dll
+     -log  xsiSetupLog
+     -sysgen
+
+Sun Dec 11 19:59:55 2011
+
+
+ Elaboration Time: 0 sec
+
+ Current Memory Usage: 1020.81 Meg
+
+ Total Signals          : 112
+ Total Nets             : 193
+ Total Signal Drivers   : 33
+ Total Blocks           : 29
+ Total Primitive Blocks : 16
+ Total Processes        : 21
+ Total Traceable Variables  : 347
+ Total Scalar Nets and Variables : 1743

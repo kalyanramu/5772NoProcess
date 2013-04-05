@@ -1,0 +1,20 @@
+Command line:
+   ToSGLfrom32bI3_89D7124B462088804037CDBBE1B1C172.dll
+     -log  xsiSetupLog
+     -sysgen
+
+Tue Sep 25 19:41:29 2012
+
+
+ Elaboration Time: 0.0156 sec
+
+ Current Memory Usage: 785.441 Meg
+
+ Total Signals          : 112
+ Total Nets             : 193
+ Total Signal Drivers   : 33
+ Total Blocks           : 29
+ Total Primitive Blocks : 16
+ Total Processes        : 21
+ Total Traceable Variables  : 347
+ Total Scalar Nets and Variables : 1743

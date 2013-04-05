@@ -1,0 +1,20 @@
+Command line:
+   SinCosLUT_4AF2FDD64E94328E5B0A30B3AC6E6500.dll
+     -log  xsiSetupLog
+     -sysgen
+
+Wed Jan 11 18:53:59 2012
+
+
+ Elaboration Time: 0.0468 sec
+
+ Current Memory Usage: 2903.3 Meg
+
+ Total Signals          : 731
+ Total Nets             : 7517
+ Total Signal Drivers   : 168
+ Total Blocks           : 190
+ Total Primitive Blocks : 92
+ Total Processes        : 164
+ Total Traceable Variables  : 971
+ Total Scalar Nets and Variables : 52750

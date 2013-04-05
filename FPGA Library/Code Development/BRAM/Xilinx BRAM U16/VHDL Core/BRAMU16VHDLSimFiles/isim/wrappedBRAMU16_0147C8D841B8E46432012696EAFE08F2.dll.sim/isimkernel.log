@@ -1,0 +1,20 @@
+Command line:
+   wrappedBRAMU16_0147C8D841B8E46432012696EAFE08F2.dll
+     -log  xsiSetupLog
+     -sysgen
+
+Tue Sep 25 19:41:29 2012
+
+
+ Elaboration Time: 0.0468 sec
+
+ Current Memory Usage: 771.396 Meg
+
+ Total Signals          : 163
+ Total Nets             : 33164
+ Total Signal Drivers   : 46
+ Total Blocks           : 17
+ Total Primitive Blocks : 5
+ Total Processes        : 39
+ Total Traceable Variables  : 209
+ Total Scalar Nets and Variables : 34509
